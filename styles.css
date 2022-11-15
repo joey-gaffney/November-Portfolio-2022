@@ -167,7 +167,7 @@ ul{
     z-index: -10;
     /* height: 340px; */
     height: 70vh;
-    animation: slide-in 1000ms;
+    animation: slide-in 2000ms;
 }
 
 .hero-img{
