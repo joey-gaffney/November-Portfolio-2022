@@ -626,15 +626,15 @@ p{
 
     .navbar-links ul{
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         width: 100%;
         align-items: flex-end;
-        /* gap: 15px; */
         animation: slide-in-right .3s ease-in-out;
     }
 
     li a{
         font-size: 1.8rem;
+        padding: 20px 0px;
     }
 
     .turd{
@@ -644,7 +644,6 @@ p{
     .navbar-links.active{
         display: flex;
         height: 100vh;
-        padding-bottom: 20px;
     }
 
     .cards-container{
