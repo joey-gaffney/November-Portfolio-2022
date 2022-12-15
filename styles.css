@@ -74,7 +74,7 @@ ul{
     /* padding: 3px 3px; */
     font-weight: 300;
     font-family: sans-serif;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     color: #333;
     transition: .3s ease-in-out;
     position: relative;
