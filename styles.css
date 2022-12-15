@@ -624,7 +624,6 @@ p{
     .navbar{
         flex-direction: column;
         align-items: flex-start;
-        /* gap: 30px; */
     }
 
     .navbar-links ul{
@@ -633,11 +632,12 @@ p{
         width: 100%;
         align-items: center;
         animation: slide-in-right .3s ease-in-out;
+        margin-bottom: 150px;
     }
 
     li a{
         font-size: 1.8rem;
-        padding: 10px 0px;
+        /* padding: 10px 0px; */
     }
 
     .turd{
@@ -650,11 +650,7 @@ p{
         text-align: center;
     }
     .links .btn{
-        border-radius: 7px;
-        font-size: 1.3rem;
-        color: #fff;
-        background-color: lightskyblue;
-        border: 2px solid rgb(0, 126, 204);
+        border-radius: 30px;
     }
 
     .navbar-links.active{
