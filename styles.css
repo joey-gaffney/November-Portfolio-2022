@@ -592,6 +592,7 @@ p{
 @media screen and (max-width: 700px) {
     main{
         background-color: #fff;
+        padding: 0px 5px;
     }
 
     .hero h1{
@@ -600,10 +601,12 @@ p{
 
     .about-container{
         flex-direction: column;
+
     }
 
     .projects-container{
         flex-direction: column;
+
     }
     .reverse{
         flex-direction: column;
@@ -628,17 +631,30 @@ p{
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        align-items: flex-end;
+        align-items: center;
         animation: slide-in-right .3s ease-in-out;
     }
 
     li a{
         font-size: 1.8rem;
-        padding: 20px 0px;
+        padding: 10px 0px;
     }
 
     .turd{
         font-size: 4rem;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .links .btn{
+        border-radius: 7px;
+        font-size: 1.3rem;
+        color: #fff;
+        background-color: lightskyblue;
+        border: 2px solid rgb(0, 126, 204);
     }
 
     .navbar-links.active{
