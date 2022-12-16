@@ -102,12 +102,17 @@ ul{
 .navbtn{
     /* display: inline-block; */
     padding: 5px 20px;
-    border: 1px solid #333;
+    border-radius: 5px;
     margin-right: 8px;
-    color: #333;
+    color: #fff;
+    background-color: mediumpurple;
     opacity: 1;
     transition: .3s ease-in-out;
     margin: 10px 0px;
+    border-radius: 5px;
+    color: rgb(0, 157, 255);
+    background: linear-gradient(45deg, mediumslateblue, #333);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .navbtn:hover{
     background-color:#333;
@@ -127,8 +132,9 @@ ul{
 .btnhero{
     display: inline-block;
     padding: 12px 30px;
-    /* border: 1px solid #333; */
-    color: #333;
+    border-radius: 5px;
+    color: rgb(0, 157, 255);
+    background: linear-gradient(45deg, mediumslateblue, #333);
     opacity: 1;
     transition: .3s ease-in-out;
     margin: 20px 0px;
@@ -239,6 +245,7 @@ main{
 }
 
 .dev-icons i:hover{
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
     transform: translateY(-12px);
 }
 
@@ -264,6 +271,7 @@ p{
 .btn{
     display: inline-block;
     padding: 12px 60px;
+    border-radius: 5px;
     margin-right: 8px;
     color: #fff;
     opacity: 1;
