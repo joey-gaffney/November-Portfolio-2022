@@ -16,6 +16,7 @@ body{
     color: #333;
     background-color: #fff;
     overflow-x: hidden;
+    font-size: 1.5rem;
 }
 
 .logo a{
@@ -51,7 +52,8 @@ a{
 
 .logo{
     color: #333;
-    letter-spacing: 12px;
+    letter-spacing: 7px;
+    font-size: 1.1rem;
 }
 
 ul{
@@ -62,7 +64,7 @@ ul{
 
 .navicon{
     font-size: 24px;
-    color: rgb(0, 157, 255);
+    color: gray;
     transition: .3s ease-in-out;
 }
 .navicon:hover{
@@ -105,13 +107,12 @@ ul{
     border-radius: 5px;
     margin-right: 8px;
     color: #fff;
-    background-color: mediumpurple;
+    background-color: #5783db;
     opacity: 1;
     transition: .3s ease-in-out;
     margin: 10px 0px;
     border-radius: 5px;
-    color: rgb(0, 157, 255);
-    background: linear-gradient(45deg, mediumslateblue, #333);
+    color: #fff;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .navbtn:hover{
@@ -129,12 +130,23 @@ ul{
 }
 
 /* HERO -----------------------------------------------*/
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
 .btnhero{
     display: inline-block;
     padding: 12px 30px;
     border-radius: 5px;
-    color: rgb(0, 157, 255);
-    background: linear-gradient(45deg, mediumslateblue, #333);
+    color: #fff;
+    background-color: #5783db;
     opacity: 1;
     transition: .3s ease-in-out;
     margin: 20px 0px;
@@ -154,6 +166,9 @@ ul{
     text-align: center;
     color:#333;
     position: relative;
+}
+.hero h1{
+    font-size: 5rem;
 }
 
 @keyframes slide-in {
@@ -278,7 +293,7 @@ p{
     transition: .3s ease-in-out;
     margin: 10px 0px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: lightseagreen;
+    background-color: rgb(24, 199, 190);
 }
 
 .btn:hover{
@@ -606,7 +621,7 @@ p{
     }
 
     .hero h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .about-container{
